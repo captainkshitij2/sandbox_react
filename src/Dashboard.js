@@ -20,7 +20,13 @@ class Dashboard extends React.Component {
       <div>
         this is my class component
         <h3>{this.state.name}</h3>
-        <button onClick={this.handleChange}> change me </button>
+        <button
+          onClick={this.handleChange}
+          style={{ fontFamily: "sans-serif", fontSize: "40px" }}
+        >
+          {" "}
+          change me{" "}
+        </button>
         <button onClick={this.handleChange2}>for prakash</button>
       </div>
     );
